@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/42a608aeef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <img src="">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hi, I'm <span>Godwill</span> <br>Binfa From Plateau State</h1>
+        </div>
+    </div>
+</div>
+<!-----------------about--------------- -->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/bo.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="first-title">About Me</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo maiores,
+                     impedit dolores error, necessitatibus nam tempore ad praesentium omnis sunt neque mollitia dolorum quidem pariatur autem quia culpa repellendus dolorem nobis placeat sed qui sapiente assumenda voluptates? Et, dolorum cum hic quaerat animi quibusdam similique blanditiis? Expedita deserunt illum voluptas, 
+                    dolor at aperiam laborum vel, dolorem ex exercitationem eos dicta?</p>
+                    <div class="do">
+                        <p class="links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="links" onclick="opentab('Experience')">Experience</p>
+                        <p class="links" onclick="opentab('Edcation')">Edcation</p>
+                    </div>
+                    <div class="down tab"  id="skills">
+                        <ul>
+                            <li><span>Software Engineer</span><br>Dedigning web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="down" id="Experience">
+                        <ul>
+                            <li><span>2022 - current</span><br>Code Plateau </li>
+                            <li><span>2021 - till date </span><br>Plateau state University</li>
+                            <li><span>2022- till date</span><br>sololear: learn to code</li>
+                        </ul>
+                    </div>
+                    <div class="down" id="Education">
+                        <ul>
+                            <li><span>2022</span><br>certificate course</li>
+                            <li><span>2021</span><br>Bsc. from Plasu</li>
+                            <li><span>2022</span><br>Certificate course</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------services------------------->
+<div id="services">
+    <div class="container"></div>
+    <h1 class="first-title">My services</h1>
+    <div class="serviceslist">
+        <div>
+            <i class="fa-duotone fa-code"></i>
+            <h2>Software Dev</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, corporis?</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Design</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, corporis?</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, corporis?</p>
+            <a href="#">Learn more</a>
+        </div>
+
+
+
+    </div>
+</div>
+
+<!---------------------------portfolio--------------------------->
+<div id="porfolio">
+<div class="container">
+    <h1 class="first-title">My work</h1>
+    <div class="worklist">
+        <div class="work">
+            <img src="images/download.jpeg">
+            <div class="layer">
+                <h3>social Media App</h3>
+                <p>The App connect you to the talented People in World. download it from play store</p>
+                <a href="#"><i class="fa-regular fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/download (1).jpeg">
+            <div class="layer">
+            <h3>social Online shopping</h3>
+                <p>The App connect you to the talented People in World. download it from play store</p>
+                <a href="#"><i class="fa-regular fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/images.jpeg">
+            <div class="layer">
+            <h3>Music App</h3>
+                <p>The App connect you to the talented People in World. download it from play store</p>
+                <a href="#"><i class="fa-regular fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn"> see more</a>
+</div>
+</div>
+<!----------------------contact-------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-letf">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-light fa-paper-plane"></i>godwillbinfa@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>08137513462</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="images/1658211638590.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+               <textarea name="Message"  rows="6" placeholder=" Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button> 
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Godwill Binfa.Made with <i class="fa-solid fa-heart"></i> By YollarBin</p>
+    </div>
+</div>
+
+<script>
+
+    var links = document.getElementsByClassName("links");
+    var down = document.getElementsByClassName("down ");
+
+    function opentab(tabname){
+        for(links of links){
+            links.classlist.remove("active-links");
+        }
+    
+
+    for(down of down){
+            down.classlist.remove("tab");
+        }
+        event.currentTarget.classlist.add("links");
+        document.getElementById(tabname).classList.add("tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById(sidemenu)
+
+    function openmenu(){
+        sudemenu.style.right = "0"
+    }
+    function closemeu(){
+        sudemenu.style.right = "-200px"
+    }
+</script>
+
+    
+</body>
+</html>
